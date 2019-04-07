@@ -1,0 +1,518 @@
+
+* {
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+
+   width: 100%;
+   height:70px;
+   display: inline-flex;
+   box-shadow: 0px 0px 1px 1px #ccc;
+}
+
+
+.p {
+    height:30px;
+    width: auto;
+    margin-top: 20px;
+    border-right: 1px solid #333;
+}
+
+
+
+.p a{
+
+   font-family: 30px;
+   padding: 3px 14px 12px 12px;
+   font-weight: bold;
+   color: #000;
+}
+
+.ul ul li {
+
+        list-style-type: none;
+        display: inline-flex;
+        padding: 12px;
+        line-height: 40px;
+}
+.ul ul li a {
+
+        font-size: 0px;
+        color: #000;
+}
+
+
+.profile {
+   width: 80px;
+   height:60px;
+   background-color: #fff;
+   float: right;
+   margin-right: 10px;
+   margin-top: 0px;
+   margin-left: 60px;
+
+}
+
+
+.profile img {
+    width: 30px;
+    height:30px;
+    border-radius: 22px;
+    margin: 10px 5px 0px 25px;
+}
+
+.profile p {
+
+    font-size: 12px;
+    color: #111;
+    text-align: center;
+    padding: 1px 0px 2px 0px;
+}
+
+.noti {
+    width:16px;
+    height: 16px;
+    background-color: red;
+    position:absolute;
+    z-index: 4;
+    border-radius: 9px;
+    margin: 10px 0px 0px 48px;
+}
+
+.noti  p {
+     font: 10px;
+     color: #fff;
+}
+
+
+#mainpost {
+   width:70%;
+   height:auto;
+   background-color: #fff;
+   margin:0 auto;
+   margin-top: 20px;
+}
+
+
+.postself {
+
+    width: 100%;
+    height:auto; /* /* REVIEW:  Should be set to auto */
+    box-shadow: 0px 0px 0px 0px #ccc;
+    border:0px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.postself h1 {
+    font-size:16px;
+    padding: 9px 4px 2px 8px;
+    text-align: justify;
+
+}
+
+.info {
+
+    width: 100%;
+    height:30px;
+    background-color: #f8f8f8;
+    margin:4px 0px 0px 0px;
+    border-left:2px solid  #5c7bb8;
+    display: inline-flex;
+}
+
+.info .uface img {
+
+    width:26px;
+    height:26px;
+    border-radius: 14px;
+    margin: 2px 4px 1px 3px;
+}
+
+.info  .uname p {
+     font-size:13px;
+     padding: 6px 3px 1px 3px;
+
+}
+.info .ufollow {
+
+     width:50px;
+     height:18px;
+     background-color: #5c7eb4;
+     border-radius: 6px;
+     margin:7px 0px  0px 5px;
+
+
+}
+
+
+.info .ufollow p {
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    color: #fff;
+}
+
+#para {
+    font-size: 14px;
+    padding:12px;
+    text-align:  justify;
+
+}
+
+
+#postdown {
+
+   width:100%;
+   height:30px;
+   margin: 2px 0px 7px 0px;
+   display: inline-flex;
+}
+
+#postdown #tip img {
+
+   width: 17px;
+   height:17px;
+   margin:2px 3px 2px 8px;
+}
+
+#tip  p{
+
+    font-size: 13px;
+    color: #555;
+    padding-top: 3px;
+    font-weight: bold;
+
+
+}
+
+#line{
+
+    width:50%;
+    height:6px;
+    background-color: #fff;
+    float: right;
+}
+
+#floatmenu {
+   width: 80px;
+   height: 24px;
+   margin-top: 5px;
+   background-color: #fff;
+   display: inline-flex;
+}
+
+.search {
+
+  width:100px;
+  height:23px;
+  margin-top: 22px;
+  margin-left: -50px;
+  display: inline-flex;
+  box-shadow: 0px 0px 1px 0px #ccc;
+
+}
+.search img {
+
+     width:18px;
+     height:18px;
+     margin:2px;
+
+}
+
+.search input[type="text"]{
+     border: 0px;
+     outline: none;
+     width: 70%;
+}
+
+
+#results{
+   width:260px;
+   height:auto;
+   margin-left: 20px;
+   background-color: #fff;
+   position: absolute;
+   z-index: 6;
+   box-shadow: 0px 0px 1px 0px #ccc;
+   display: none;
+   border-radius: 3px;
+}
+
+#results h2 {
+   font-size: 13px;
+   color: #5c7bb8;
+   padding: 7px 6px 7px 7px;
+   text-align: justify;
+
+}
+
+#results #h3{
+    border-bottom: 1px solid #eee;
+}
+
+
+#newpost {
+
+    width:80px;
+    height:25px;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #5c7bb8;
+    box-shadow:  0px 0px 1px 0px   #5c7bb8;
+
+
+}
+
+#newpost p {
+   font-size: 13px;
+   padding: 3px;
+   text-align: center;
+   color: #fff;
+}
+
+
+#input {
+    width:100%;
+    height:auto;
+    background-color: #ddd;
+    position: fixed;
+    bottom: 0;
+    margin:0 auto;
+    display: inline-flex;
+
+}
+
+#textarea {
+
+   width:60%;
+   height:auto;
+   margin:4px 3px 9px 15px;
+   background-color: #fff;
+   border-radius:3px;
+   outline: none;
+   font-size: 13px;
+   padding:7px;
+
+}
+
+#send  button{
+
+  width:50px;
+  height: 24px;
+  background-color: #5c7bb8;
+  border:0px;
+  color: #fff;
+  margin: 5px 0px 0px 7px;
+  outline: none;
+  border-radius: 3px;s
+}
+
+#span {
+   color:  #5c7bb8;
+}
+
+#time  {
+
+  font-size:9px;
+  margin-left: 10px;
+
+}
+
+#noti-bar {
+
+              width:100%;
+              height:auto;
+              position: absolute;
+              z-index: 6;
+              box-shadow: 0px 0px 0px 0px #ccc;
+              float: right;
+              border-radius: 3px;
+              display: none;
+}
+
+
+#noti-bar h2 {
+   font-size: 13px;
+}
+
+.notix {
+   width:270px;
+   height:auto;
+   background-color:#f8f8f8;
+   float: right;
+   margin: 0px 10px 0px 0px;
+   box-shadow: 0px 0px 1px 0px #ccc;
+
+}
+
+.notibar {
+   width:100%;
+   height:auto;
+   border-left: 1px solid #eee;
+   display: inline-flex;
+   border-bottom: 1px solid #eee;
+
+}
+
+.iconxb  img{
+   width:18px;
+   height:18px;
+   margin:3px;
+
+}
+
+.notixp p{
+  padding:3px;
+  font-size: 13px;
+}
+
+.notixp h5 {
+
+  float: right;
+  padding:6px 3px 0px 10px;
+  font-size: 10px;
+}
+
+#btnx {
+   width:20px;
+   height:20px;
+   margin:0 auto;
+}
+
+#btnx img {
+   width:18px;
+   height: 18px;
+   margin:2px;
+
+}
+
+#sider {
+
+   width:30px;
+   height:40px;
+   background-color: #eee;
+   position: fixed;
+   left: 0;
+   top: 200px;
+
+
+}
+
+#sider img{
+  width:27px;
+  height: 27px;
+  margin:7px 0px 0px 4px;
+  /* HACK:  */
+
+
+
+
+
+}
+#sider ul li {
+   list-style: none;
+}
+
+#sider ul li {
+
+        list-style-type: none;
+        padding: 7px;
+
+}
+#sider ul li a {
+
+        font-size: 13px;
+        color: #000;
+}
+
+/* HACK: hiding */
+
+#unli{
+  display:none;
+  margin-top: 30px;
+
+}
+
+ /* HACK: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media (min-width:800px)  {
+
+
+  #sider {
+     width:0px;
+     height:0px;
+     background-color: #eee;
+     position: fixed;
+     left: 0;
+     top: 200px;
+  }
+
+  #sider img{
+    width:0px;
+    height: 0px;
+    margin:7px 0px 0px 4px;
+
+  }
+
+  .profile {
+    margin-left: 300px;
+  }
+
+  #results {
+
+    width: 500px;
+  }
+
+  .notix {
+     width:500px;
+     height:auto;
+     background-color:#f8f8f8;
+     float: right;
+     margin: 0px 10px 0px 0px;
+
+  }
+
+
+  #newpost {
+     width:0px;
+     height: 0px;
+  }
+
+  #newpost p {
+    font-size: 0px;
+  }
+
+  #results{
+
+     margin-left: 230px;
+
+  }
+
+  .search {
+
+    width:200px;
+    height:24px;
+    margin-top: 22px;
+    margin-left: 9px;
+
+
+  }
+  .ul ul li {
+
+          list-style-type: none;
+          display: inline-flex;
+          padding: 12px;
+          line-height: 40px;
+  }
+  .ul ul li a {
+
+          font-size: 13px;
+          color: #000;
+  }
+
+
+}
